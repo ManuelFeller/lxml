@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{96BE70C1-0F05-4D20-88AA-557D095A463B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DDPro.Software.Net20.Tests</RootNamespace>
+    <AssemblyName>test_LxmlComponents</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.5.2.9222, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonHelper.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="test_LanguageXML.cs" />
+    <Compile Include="test_objects\tFrmLangXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test_objects\tFrmLangXML.Designer.cs">
+      <DependentUpon>tFrmLangXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="test_Rijndael.cs" />
+    <Compile Include="test_StatusMessage.cs" />
+    <Compile Include="test_UserList.cs" />
+    <Compile Include="test_UserSettings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lib\nunit.framework.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CUX_Library\lib_UserList.csproj">
+      <Project>{4BD5B431-54D5-460F-8EB0-1D8897C58B50}</Project>
+      <Name>lib_UserList</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LanguageXML_Library\lib_LanguageXML.vbproj">
+      <Project>{B8F901B0-40DB-4BCC-B50B-10C4A54E36E8}</Project>
+      <Name>lib_LanguageXML</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lib_UserSettings\lib_UserSettings.csproj">
+      <Project>{F3A99A86-53A9-4E5F-8053-67295CBEB0E2}</Project>
+      <Name>lib_UserSettings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rijndael_Library\lib_Rijndael.vbproj">
+      <Project>{0AD0E4E8-9666-493E-BECD-21DF42DBB2FF}</Project>
+      <Name>lib_Rijndael</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StatusMessage_Library\lib_StatusMessage.csproj">
+      <Project>{81D92295-9522-486B-8BAD-5C12220304F8}</Project>
+      <Name>lib_StatusMessage</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test_objects\tFrmLangXML.resx">
+      <DependentUpon>tFrmLangXML.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test_objects\testform.lxml">
+    </None>
+    <None Include="test_objects\testform_v2.lxml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

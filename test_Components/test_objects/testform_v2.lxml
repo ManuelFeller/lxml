@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<lxml>
+	<version major="2" minor="0" />
+	<file program="Component-Test" description="... data for the Test-Form ..." lastupdate="12/13/2009 22:25:00" />
+	<languages>
+		<language id="0" name="default" iso="en-US" displayname="English (US)" author="Manuel Feller" version="1.0.en" info="... Test-Values for the Test-Form in Component-Test ..." lastupdate="12/13/2009 04:25:00" />
+		<language id="1" name="german" iso="de-DE" displayname="Deutsch" author="Manuel Feller" version="1.0.de" info="... blah und blubs ..." lastupdate="12/13/2009 04:23:00" />
+	</languages>
+	<items>
+		<item id="0" name="av_tf_tFrmLangXML" description="Title of Test-Form">
+			<language id="0" value="Form" />
+			<language id="1" value="Fenster" />
+		</item>
+		<item id="1" name="av_tf_mnFile" description="Text for File-Menu">
+			<language id="0" value="File" />
+			<language id="1" value="Datei" />
+		</item>
+		<item id="2" name="av_tf_mniItem1" description="av_tf_mniItem1">
+			<language id="0" value="Item 1" />
+			<language id="1" value="Element 1" />
+		</item>
+		<item id="3" name="av_tf_mniCombo" description="combo">
+			<language id="0" value="ComboBox" />
+			<language id="1" value="Kombination" />
+		</item>
+		<item id="4" name="av_tf_mniText" description="textbox">
+			<language id="0" value="TextBox" />
+			<language id="1" value="Text" />
+		</item>
+		<item id="5" name="av_tf_mniItemNest" description="item nest">
+			<language id="0" value="Nest" />
+			<language id="1" value="Element Nest" />
+		</item>
+		<item id="6" name="av_tf_mniItemNested" description="item nested">
+			<language id="0" value="Nested" />
+			<language id="1" value="Element im Nest" />
+		</item>
+		<item id="7" name="av_tf_btnTest" description="Button">
+			<language id="0" value="Button" />
+			<language id="1" value="Knopf" />
+		</item>
+		<item id="8" name="av_tf_tbxTest" description="TextBox">
+			<language id="0" value="TextBox" />
+			<language id="1" value="Text" />
+		</item>
+		<item id="9" name="av_tf_cbxTest" description="ComboBox">
+			<language id="0" value="ComboBox" />
+			<language id="1" value="Kombination" />
+		</item>
+		<item id="10" name="av_tf_lblTest" description="Label">
+			<language id="0" value="Label" />
+			<language id="1" value="Textfläche" />
+		</item>
+		<item id="11" name="av_tf_rbtTest" description="RadioButton">
+			<language id="0" value="RadioButton" />
+			<language id="1" value="Option" />
+		</item>
+		<item id="12" name="av_tf_lnkTest" description="LinkLabel">
+			<language id="0" value="LinkLabel" />
+			<language id="1" value="Verknüpfung" />
+		</item>
+		<item id="13" name="av_tf_chkTest" description="CheckBox">
+			<language id="0" value="CheckBox" />
+			<language id="1" value="Auswahl" />
+		</item>
+		<item id="14" name="av_tf_grpTest" description="GroupBox">
+			<language id="0" value="GroupBox" />
+			<language id="1" value="Gruppe" />
+		</item>
+		<item id="15" name="av_tf_rtfTest" description="RichTextBox">
+			<language id="0" value="RichtTextBox" />
+			<language id="1" value="reicher Text... ;-)" />
+		</item>
+		<item id="16" name="av_tf_tpgTest1" description="TabPage1">
+			<language id="0" value="Tab 1" />
+			<language id="1" value="Karteikarte 1" />
+		</item>
+		<item id="17" name="av_tf_tpgTest2" description="TabPage2">
+			<language id="0" value="Tab 2" />
+			<language id="1" value="Karteikarte 2" />
+		</item>
+		<item id="18" name="av_tf_mtbTest" description="MaskedTextBox">
+			<language id="0" value="masked Text" />
+			<language id="1" value="maskierter Text" />
+		</item>
+		<item id="19" name="test_value" description="Just a TestText...">
+			<language id="0" value="Test-Text" />
+			<language id="1" value="Text-Wert" />
+		</item>
+		<item id="20" name="av_tf_tsLblTest" description="Label on StatusBar">
+			<language id="0" value="Label" />
+		</item>
+		<item id="21" name="av_tf_tsDrpTest" description="DropDownButton on StatusBar">
+			<language id="0" value="DropDown" />
+		</item>
+		<item id="22" name="av_tf_tsSplTest" description="SplitButton on StatusBar">
+			<language id="0" value="SplitButton" />
+		</item>
+		<item id="23" name="av_tf_tsDrp1Elem1" description="DropDown-Item on StatusBar">
+			<language id="0" value="DropDownElement1" />
+		</item>
+		<item id="24" name="av_tf_tsDrp2Elem1" description="DropDown-Item on StatusBar">
+			<language id="0" value="DropDownElement2" />
+		</item>
+		<item id="25" name="av_tf_tsSpl1Elem1" description="SplitButton-Item on StatusBar">
+			<language id="0" value="SplitButtonElement1" />
+		</item>
+		<item id="26" name="av_tf_tsSpl2ElemNest" description="SplitButton-NestItem on StatusBar">
+			<language id="0" value="SplitButtonElementNest" />
+		</item>
+		<item id="27" name="av_tf_tsSpl2NestedItem" description="SplitButton-NestedItem on StatusBar">
+			<language id="0" value="SplitButtonNestedItem" />
+		</item>
+		<item id="28" name="av_tf_tsSpl2NestedCombo" description="SplitButton-NestedComboBox on StatusBar">
+			<language id="0" value="SplitButtonNestedCombo" />
+		</item>
+		<item id="29" name="av_tf_tsSpl2NestedText" description="SplitButton-NestedTextBox on StatusBar">
+			<language id="0" value="SplitButtonNestedText" />
+		</item>
+		<item id="30" name="test_val2Lang" description="String availablein all Lang (Lang-Name)">
+			<language id="0" value="english" />
+			<language id="1" value="deutsch" />
+		</item>
+		<item id="31" name="test_val1Lang" description="String only available in Default-Lang">
+			<language id="0" value="only eng" />
+		</item>
+		<item id="32" name="test_processed" description="Test Placeholder {v1} and {v2}">
+			<language id="0" value="Test {v1} and {v2}..." />
+		</item>
+	</items>
+</lxml>

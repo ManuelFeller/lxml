@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="app_FileUserList" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">editor.lcux</Value>
+    </Setting>
+    <Setting Name="app_FileLanguageFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">editor.lxml</Value>
+    </Setting>
+    <Setting Name="app_IsoStrings" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">de-DE|de-AT|de-CH|en-GB|en-US|hu-HU</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

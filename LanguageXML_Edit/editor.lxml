@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lxml>
+  <version major="2" minor="0" />
+  <file program="LxmlEdit.exe" description="Language-File for the LanguageXML-Editor" lastupdate="12/13/2009 19:07:19" />
+  <languages>
+    <language id="0" name="default" iso="en-US" displayname="English" author="Manuel Feller" version="2.1.0.13129" info="The default Language for the LanguageXML - Editor - english, US" lastupdate="12/13/2009 19:04:32" />
+    <language id="1" name="german" iso="de-DE" displayname="Deutsch" author="Manuel Feller" version="2.1.0.13129" info="Die deutschen Sprachdaten für den LanguageXML - Editor... (incomplete)" lastupdate="12/13/2009 19:07:19" />
+  </languages>
+  <items>
+    <item id="0" name="as_ls_btnDeleteLang" description="Language-List GUI: Text on Button &quot;delete&quot;">
+      <language id="0" value="Delete" />
+      <language id="1" value="löschen" />
+    </item>
+    <item id="1" name="as_ls_lblNewLang" description="Language-List GUI: Text on Label &quot;new Langauge&quot;">
+      <language id="0" value="new Language:" />
+      <language id="1" value="neue Sprache" />
+    </item>
+    <item id="2" name="as_ls_btnAddLang" description="Language-List GUI: Text on Button &quot;add&quot;">
+      <language id="0" value="Add" />
+      <language id="1" value="hinzufügen" />
+    </item>
+    <item id="3" name="as_ls_grpMain" description="Language-List GUI: Text on Main-Group">
+      <language id="0" value="Edit the list of available Languages:" />
+      <language id="1" value="Liste der verfügbaren Sprachen bearbeiten:" />
+    </item>
+    <item id="4" name="as_ls_lblIntNameInfo" description="Language-List GUI: Text on Label &quot;displaying internal names only&quot;">
+      <language id="0" value="... only internal Names are displayed in this Dialog..." />
+      <language id="1" value="... die hier verwendeten Namen sind nur interne Namen ..." />
+    </item>
+    <item id="5" name="as_ls_frmLanguageList" description="Language-List GUI: Text on Form-Title">
+      <language id="0" value="Language-List" />
+      <language id="1" value="Liste der Sprachen" />
+    </item>
+    <item id="6" name="as_mf_frmMain" description="Main MDI-Parent Window: Text on Form-Title">
+      <language id="0" value="LXML - Editor" />
+      <language id="1" value="LXML - Editor" />
+    </item>
+    <item id="7" name="as_mf_mnFile" description="Main MDI-Parent Window: Text on Menu-Item &quot;File&quot;">
+      <language id="0" value="&amp;File" />
+      <language id="1" value="&amp;Datei" />
+    </item>
+    <item id="8" name="as_mf_mnView" description="Main MDI-Parent Window: Text on Menu-Item &quot;View&quot;">
+      <language id="0" value="&amp;View" />
+      <language id="1" value="&amp;Ansicht" />
+    </item>
+    <item id="9" name="as_mf_mniNewFile" description="Main MDI-Parent Window: Text on Menu-Element &quot;New File&quot;">
+      <language id="0" value="&amp;New File" />
+      <language id="1" value="&amp;Neue Datei" />
+    </item>
+    <item id="10" name="as_mf_mniOpenFile" description="Main MDI-Parent Window: Text on Menu-Element &quot;Open File&quot;">
+      <language id="0" value="&amp;Open File" />
+      <language id="1" value="Datei &amp;öffnen" />
+    </item>
+    <item id="11" name="as_mf_mniSaveFile" description="Main MDI-Parent Window: Text on Menu-Element &quot;Save File&quot;">
+      <language id="0" value="&amp;Save File" />
+      <language id="1" value="Datei &amp;speichern" />
+    </item>
+    <item id="12" name="as_mf_mniSaveFileAs" description="Main MDI-Parent Window: Text on Menu-Element &quot;Save File as&quot;">
+      <language id="0" value="Save File &amp;as" />
+      <language id="1" value="Datei speichern &amp;unter" />
+    </item>
+    <item id="13" name="as_mf_mniExitTool" description="Main MDI-Parent Window: Text on Menu-Element &quot;Exit Tool&quot;">
+      <language id="0" value="&amp;Exit Tool" />
+      <language id="1" value="Programm b&amp;eenden" />
+    </item>
+    <item id="14" name="as_mf_mniShowLangList" description="Main MDI-Parent Window: Text on Menu-Element &quot;show Language-List&quot;">
+      <language id="0" value="edit Language-&amp;List" />
+      <language id="1" value="&amp;Liste der Sprachen bearbeiten" />
+    </item>
+    <item id="15" name="as_mf_mniShowLangData" description="Main MDI-Parent Window: Text on Menu-Element &quot;show Langauge-Data&quot;">
+      <language id="0" value="edit Language-&amp;Data" />
+      <language id="1" value="&amp;Daten für eine Sprache bearbeiten" />
+    </item>
+    <item id="16" name="as_mf_mniShowLangItems" description="Main MDI-Parent Window: Text on Menu-Element &quot;show Language-Items&quot;">
+      <language id="0" value="edit Language-&amp;Items" />
+      <language id="1" value="Sprach-&amp;Elemente bearbeiten" />
+    </item>
+    <item id="17" name="err_msg_UserInitFail" description="Error-Message: User-init failed">
+      <language id="0" value="User-Init failed...&#xD;&#xA;&#xD;&#xA;Contact your Administrator and tell him about this Error." />
+      <language id="1" value="Die Initialisierung der Benutzer ist fehlgeschlagen.&#xD;&#xA;&#xD;&#xA;Informieren Sie Ihren Administrator über diesen Fehler..." />
+    </item>
+    <item id="18" name="msg_title_Info" description="Message-Title: Information">
+      <language id="0" value="Information:" />
+      <language id="1" value="Information:" />
+    </item>
+    <item id="19" name="msg_title_Error" description="Message-Title: Error">
+      <language id="0" value="Error:" />
+      <language id="1" value="Fehler:" />
+    </item>
+    <item id="20" name="msg_title_Warning" description="Message-Title: Warning">
+      <language id="0" value="Warning:" />
+      <language id="1" value="Warnung:" />
+    </item>
+    <item id="21" name="msg_title_Confirm" description="Message-Title: Confirm">
+      <language id="0" value="Confirm:" />
+      <language id="1" value="Rückfrage:" />
+    </item>
+    <item id="22" name="stat_err_UserInitFail" description="Main MDI-Parent Window: Text on Status-Bar --&gt; User-init failed...">
+      <language id="0" value="User-Init failed - no use possible..." />
+      <language id="1" value="Die Initialisierung der Benutzer ist fehlgeschlagen..." />
+    </item>
+    <item id="23" name="msg_title_Critical" description="Message-Title: Critical">
+      <language id="0" value="Critical Error:" />
+      <language id="1" value="Kritischer Fehler:" />
+    </item>
+    <item id="24" name="stat_msg_UserRights" description="Main MDI-Parent Window: Text on Status-Bar --&gt; User-Rights Info... (use {rights} to integrate User-Level in output)">
+      <language id="0" value="Logged in as {rights}..." />
+      <language id="1" value="Angemeldet as {rights}..." />
+    </item>
+    <item id="25" name="stat_msg_userNotInList" description="Main MDI-Parent Window: Text on Status-Bar --&gt; User not found in List... (use {user} to integrate Username in output)">
+      <language id="0" value="Login failed - User &quot;{user}&quot; unknown..." />
+      <language id="1" value="Benutzer &quot;{user}&quot; nicht gefunden..." />
+    </item>
+    <item id="26" name="stat_txt_RightsAdmin" description="Status-Bar Text-Element: Word for Admin-Rights">
+      <language id="0" value="Administrator" />
+      <language id="1" value="Administrator" />
+    </item>
+    <item id="27" name="stat_txt_RightsLangAdmin" description="Status-Bar Text-Element: Word for LanguageAdmin-Rights">
+      <language id="0" value="Language-Admin" />
+      <language id="1" value="Sprachen-Administrator" />
+    </item>
+    <item id="28" name="stat_txt_RightsEditor" description="Status-Bar Text-Element: Word for Editor-Rights">
+      <language id="0" value="Editor" />
+      <language id="1" value="Sprachen-Bearbeiter" />
+    </item>
+    <item id="29" name="dia_title_OpenFile" description="Dialog-Title: Select File to Open">
+      <language id="0" value="Please select a File to open:" />
+      <language id="1" value="Bitte die Datei zum Öffnen auswählen:" />
+    </item>
+    <item id="30" name="dia_title_SaveFile" description="Dialog-Title: Select File to Save">
+      <language id="0" value="Please select a File to save:" />
+      <language id="1" value="Bitte die Datei zum Speichern auswählen:" />
+    </item>
+    <item id="31" name="dia_title_SaveFileAs" description="Dialog-Title: Select File to Save as">
+      <language id="0" value="Please select a File to save as:" />
+      <language id="1" value="Bitte eine Datei zum Speichern auswählen:" />
+    </item>
+    <item id="32" name="str_name_LxmlFiles" description="File-Dialog: Name for LXML-Files">
+      <language id="0" value="LanguageXML-Files" />
+      <language id="1" value="LXML-Dateien" />
+    </item>
+    <item id="33" name="str_name_XmlFiles" description="File-Dialog: Name for XML-Files">
+      <language id="0" value="XML-Files" />
+      <language id="1" value="XML-Dateien" />
+    </item>
+    <item id="34" name="str_name_AllFiles" description="File-Dialog: Text for all Files">
+      <language id="0" value="all File-Formats" />
+      <language id="1" value="alle Dateien" />
+    </item>
+    <item id="35" name="str_name_NewFile" description="Main MDI-Parent Window: Text for a new File in Headline">
+      <language id="0" value="new File (unsaved)" />
+      <language id="1" value="neue Datei" />
+    </item>
+    <item id="36" name="as_li_frmBaseData" description="Language-Items Window: Form Title">
+      <language id="0" value="Edit Language-Items" />
+      <language id="1" value="Sprache-Elemente bearbeiten" />
+    </item>
+    <item id="37" name="as_li_grpHeader" description="Language-Items Window: Text for GroupBox &quot;File-Meta-Data&quot;">
+      <language id="0" value="Basic Informations for the File:" />
+      <language id="1" value="Basis-Informationen der Datei:" />
+    </item>
+    <item id="38" name="as_li_grpData" description="Language-Items Window: Text for GroupBox &quot;Data&quot;">
+      <language id="0" value="Language-Items in File:" />
+      <language id="1" value="Elemente in der Datei:" />
+    </item>
+    <item id="39" name="as_li_lblHeadProgram" description="Language-Items Window: Label in GroupBox &quot;File-Meta-Data&quot; for Program-Name">
+      <language id="0" value="Program-Name:" />
+      <language id="1" value="Programm-Name:" />
+    </item>
+    <item id="40" name="as_li_lblHeadDescription" description="Language-Items Window: Label in GroupBox &quot;File-Meta-Data&quot; for Description">
+      <language id="0" value="Description:" />
+      <language id="1" value="Beschreibung / Information:" />
+    </item>
+    <item id="41" name="as_li_lblHeadLastUpdate" description="Language-Items Window: Label in GroupBox &quot;File-Meta-Data&quot; for last Update Info">
+      <language id="0" value="Last change:" />
+      <language id="1" value="letzte Änderung:" />
+    </item>
+    <item id="42" name="as_ld_frmLanguageData" description="Language-Values Window: Form Title">
+      <language id="0" value="Edit Language-Data" />
+      <language id="1" value="Sprach-Daten bearbeiten" />
+    </item>
+    <item id="43" name="as_ld_lblActiveLanguage" description="Language-Values Window: Label for active (selcted) Language">
+      <language id="0" value="selected Language:" />
+      <language id="1" value="gewählte Sprache:" />
+    </item>
+    <item id="44" name="as_ld_lblIsoString" description="Language-Values Window: Label for Language ISO-String">
+      <language id="0" value="ISO-String:" />
+      <language id="1" value="ISO-Bezeichnung:" />
+    </item>
+    <item id="45" name="as_ld_lblDisplayName" description="Language-Values Window: Label for Diaplay-Name of Language">
+      <language id="0" value="Display-Name:" />
+      <language id="1" value="Name der Sprache:" />
+    </item>
+    <item id="46" name="as_ld_lblAuthorName" description="Language-Values Window: Label for Author-Name">
+      <language id="0" value="Language Author:" />
+      <language id="1" value="Autor der Sprache:" />
+    </item>
+    <item id="47" name="as_ld_lblLangVersion" description="Language-Values Window: Label for Version-Info">
+      <language id="0" value="Language Version:" />
+      <language id="1" value="Version der Sprache:" />
+    </item>
+    <item id="48" name="as_ld_lblInfoText" description="Language-Values Window: Label for Info-Text for Language">
+      <language id="0" value="Language Info-Text:" />
+      <language id="1" value="Kurz-Information:" />
+    </item>
+    <item id="49" name="as_ld_lblLastUpdate" description="Language-Values Window: Label for last Data-Update in File">
+      <language id="0" value="Last change:" />
+      <language id="1" value="letzte Änderung:" />
+    </item>
+    <item id="50" name="as_ld_lblHelperLanguage" description="Language-Values Window: Label for the Helper-Language Selection">
+      <language id="0" value="Help-Language:" />
+      <language id="1" value="Hilfswert-Sprache:" />
+    </item>
+    <item id="51" name="as_ld_grpBasics" description="Language-Values Window: Text for GroupBox &quot;Language Basics and Selection&quot;">
+      <language id="0" value="Basics and Language-Selection:" />
+      <language id="1" value="Basis-Informationen und Sprach-Auswahl:" />
+    </item>
+    <item id="52" name="as_ld_grpData" description="Language-Values Window: Text for GroupBox &quot;Language Data&quot;">
+      <language id="0" value="Language-Data:" />
+      <language id="1" value="Daten für die gewählte Sprache:" />
+    </item>
+    <item id="53" name="stat_msg_NoDelteDefaultLang" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Default-Language can not be deleted...">
+      <language id="0" value="The Default-Language can not be deleted..." />
+      <language id="1" value="Die Standard-Sprache kann nicht gelöscht werden..." />
+    </item>
+    <item id="54" name="stat_msg_NoLangToDelSelected" description="Main MDI-Parent Window: Text on Status-Bar --&gt; No Language to delete selected...">
+      <language id="0" value="Delete not possible - no Language selected..." />
+      <language id="1" value="Keine Sprache zum Löschen ausgewählt..." />
+    </item>
+    <item id="55" name="err_msg_DeleteLangConfirm" description="Confirm-Message: really delete Language? (use {lang} to integrate selected Langauge in output)">
+      <language id="0" value="Dor you really want to delete the Language &quot;{lang}&quot;?&#xD;&#xA;&#xD;&#xA;The Data for the Language can not be restored after it is was deleted!" />
+      <language id="1" value="Wollen Sie die Sprache &quot;{lang}&quot; wirklich löschen?&#xD;&#xA;&#xD;&#xA;Dieser Vorgang kann nicht rückgängig gemacht werden!" />
+    </item>
+    <item id="56" name="stat_msg_DelLangCancelByUser" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Delete of Language canceled by User... (use {lang} to integrate selected Langauge in output)">
+      <language id="0" value="Language &quot;{lang}&quot; not deleted - cancel by User..." />
+      <language id="1" value="Sprache &quot;{lang}&quot; nicht gelöscht - Abbruch durch Benutzer..." />
+    </item>
+    <item id="57" name="stat_msg_DelLangFailed" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Delete of Language canceled by User... (use {lang} to integrate selected Langauge in output)">
+      <language id="0" value="Error deleting Language &quot;{lang}&quot;..." />
+      <language id="1" value="Beim Löschen der Sprache &quot;{lang}&quot; ist ein Fehler aufgetreten..." />
+    </item>
+    <item id="58" name="stat_msg_LanguageDeleted" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Language deleted... (use {lang} to integrate selected Langauge in output)">
+      <language id="0" value="Language &quot;{lang}&quot; deleted..." />
+      <language id="1" value="Sprache &quot;{lang}&quot; gelöscht..." />
+    </item>
+    <item id="59" name="stat_msg_NoLangToAdd" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Language without Name can not be created...">
+      <language id="0" value="a Language without Name can not be created..." />
+      <language id="1" value="Keine Name für die neue Sprache angegeben..." />
+    </item>
+    <item id="60" name="stat_msg_LangNotAdded" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Language not added... (use {lang} to integrate selected Langauge in output)">
+      <language id="0" value="Language &quot;{lang}&quot; not added because of Error..." />
+      <language id="1" value="Sprache &quot;{lang}&quot; konnte nicht hinzugefügt werden..." />
+    </item>
+    <item id="61" name="stat_msg_LangAdded" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Language added... (use {lang} to integrate selected Langauge in output)">
+      <language id="0" value="Language &quot;{lang}&quot; added..." />
+      <language id="1" value="Sprache &quot;{lang}&quot; hinzugefügt..." />
+    </item>
+    <item id="62" name="err_msg_IntNameNotUnique" description="Error-Message: Name for new Language already in use...">
+      <language id="0" value="Every Language needs a unique internal name..." />
+      <language id="1" value="Es existiert schon eine Sprache mit dem angegebenen internen Namen..." />
+    </item>
+    <item id="63" name="err_msg_LangNotCreated" description="Error-Message: Language could not be created...">
+      <language id="0" value="New Language could not be created..." />
+      <language id="1" value="Die neue Sprache konnte nicht angelegt werden..." />
+    </item>
+    <item id="64" name="err_msg_IllegalSignInIntLangName" description="Error-Message: Illegal Sign in internal Name for new Language...">
+      <language id="0" value="Illegal sign in Name for new Language...&#xD;&#xA;&#xD;&#xA;Only &quot;A&quot; to &quot;Z&quot;, &quot;0&quot; to &quot;9&quot; and &quot;_&quot; allowed..." />
+      <language id="1" value="Unerlaubte Zeichen im Namen der neuen Sprache...&#xD;&#xA;&#xD;&#xA;Nur &quot;A&quot; bis &quot;Z&quot;, &quot;0&quot; bis &quot;9&quot; und &quot;_&quot; sind zulässig..." />
+    </item>
+    <item id="65" name="err_msg_LangTableToDelNotFound" description="Error-Message: Table with Langauge to delete could not be found...">
+      <language id="0" value="Table with Language to delete not found..." />
+      <language id="1" value="Die Tabelle mit den Daten der zu löschenden Sprache konnte nicht gefunden werden..." />
+    </item>
+    <item id="66" name="err_msg_LangMetaToDelNotFound" description="Error-Message: Meta-Data-Entry for Language to be deleted not found...">
+      <language id="0" value="Meta-Value for the Language to delete not found..." />
+      <language id="1" value="Die Meta-Daten für die zu löschende Sprache konnten nicht gefunden werden..." />
+    </item>
+    <item id="67" name="dgv_headBase_ID" description="DataGrid Headline for Column ID...">
+      <language id="0" value="ID:" />
+      <language id="1" value="ID:" />
+    </item>
+    <item id="68" name="dgv_headBase_Name" description="DataGrid Headline for Column Name...">
+      <language id="0" value="Name:" />
+      <language id="1" value="Name:" />
+    </item>
+    <item id="69" name="dgv_headBase_Description" description="DataGrid Headline for Column Description...">
+      <language id="0" value="Description:" />
+      <language id="1" value="Beschreibung:" />
+    </item>
+    <item id="70" name="stat_msg_LangChanged" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Language was changed...">
+      <language id="0" value="Language was changed..." />
+      <language id="1" value="Sprache wurde geändert..." />
+    </item>
+    <item id="71" name="as_li_btnDeleteItems" description="Language-Items Window: Text for Button &quot;delete selected rows&quot;">
+      <language id="0" value="... delete selected Item(s) from File ..." />
+      <language id="1" value="... die ausgewählten Sprach-Elemente löschen ..." />
+    </item>
+    <item id="72" name="stat_msg_DeleteItemsFailed" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Delete Language-Item(s) failed... (use {id} to integtrate affected ID's in output)">
+      <language id="0" value="Some or all Language-Items ({id}) could not be deleted..." />
+      <language id="1" value="Einige oder alle Sprach-Elemente ({id}) konnten nicht gelöscht werden..." />
+    </item>
+    <item id="73" name="stat_msg_DeleteItemsSuccess" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Delete Language-Item(s) success...">
+      <language id="0" value="Language-Items deleted..." />
+      <language id="1" value="Sprach-Element(e) gelöscht..." />
+    </item>
+    <item id="74" name="err_msg_ConfirmLangItemDelete" description="Confirm-Message: Delete selected Languages (use {id} to integrate affected ID's in output)">
+      <language id="0" value="Do you really want to delete the Items with the following ID's?&#xD;&#xA;&#xD;&#xA;{id}&#xD;&#xA;&#xD;&#xA;The Items and the Language-Data for it can not be restored..." />
+      <language id="1" value="Sollen die Sprach-Elemente mit den nachfolgenden ID's wirklich gelöscht werden?&#xD;&#xA;&#xD;&#xA;{id}&#xD;&#xA;&#xD;&#xA;Die Elemente und die Sprach-Daten können danach nicht wiederhergestellt werden..." />
+    </item>
+    <item id="75" name="stat_msg_DeleteItemUserCancel" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Delete Language-Item(s) cancelled by User...">
+      <language id="0" value="Delete of Language-Item(s) - cancel by User..." />
+      <language id="1" value="Löschen von Sprach-Element(en) - Abbruch durch Benutzer..." />
+    </item>
+    <item id="76" name="dgv_headLang_Value" description="DataGrid Headline for Column Value...">
+      <language id="0" value="Value / Text:" />
+      <language id="1" value="Wert / Text:" />
+    </item>
+    <item id="77" name="dgv_headLang_HelperValue" description="DataGrid Headline for Column Helper-Value...">
+      <language id="0" value="Helper-Value:" />
+      <language id="1" value="Hilfswert:" />
+    </item>
+    <item id="78" name="err_msg_SaveBeforeLangChangeFail" description="Confirm Error-Message: Saving changes before Language-Change not successful...">
+      <language id="0" value="The changes in the Meat-Data for the previously selected Language could not be saved.&#xD;&#xA;&#xD;&#xA;Do you want to ignore this Error and discard the unsaved changes?" />
+      <language id="1" value="Die Änderungen an den Meta-Daten der zuvor ausgewählten Sprache konnte nicht gespeichert werden.&#xD;&#xA;&#xD;&#xA;Wollen Sie diesen Fehler ignorieren und die nicht gespeicherten Änderungen verwerfen?" />
+    </item>
+    <item id="79" name="stat_msg_NewValueNotSaved" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Changed value could not be saved to DataSet...">
+      <language id="0" value="New Value for Item could not be saved..." />
+      <language id="1" value="Der neue Wert konnte nicht gespeichert werden..." />
+    </item>
+    <item id="80" name="stat_msg_NewValueSaved" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Changed value saved to DataSet...">
+      <language id="0" value="New Value for Item saved..." />
+      <language id="1" value="Der neue Wert wurde gespeichert..." />
+    </item>
+    <item id="81" name="as_ld_lblHelpSizeSlide" description="Language-Values Window: Text for Helper-Column Size-Slider">
+      <language id="0" value="width of Helper-Column:" />
+      <language id="1" value="Größe der Hilfswert-Spalte:" />
+    </item>
+    <item id="82" name="stat_msg_EditLangChangeCancelAfterError" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Edit-Language was not changed after error and user-cancel...">
+      <language id="0" value="Language not changed - error saving changes from current Language..." />
+      <language id="1" value="Sprache nicht gewechselt - Fehler beim Speichern der Änderungen der ausgewählten Sprache..." />
+    </item>
+    <item id="83" name="err_msg_FormDataNotSaved" description="Confirm Error-Message: Data of open Form could not be saved to internal Data (use {form} to integrate Form-Name in output)">
+      <language id="0" value="The Data in the Form &quot;{form}&quot; could not be saved.&#xD;&#xA;Do you want to continue and discard the unsaved changes?" />
+      <language id="1" value="Die Daten im Fenster &quot;{form}&quot; konnten nicht gespeichert werden.&#xD;&#xA;Möchten sie fortfahren und die ungespeicherten Änderungen verwerfen?" />
+    </item>
+    <item id="84" name="stat_msg_FormCloseDataNotSavedCancel" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Data in open Form(s) could not be saved before WindowChange">
+      <language id="0" value="No View-Change - Data in open Form could not be saved..." />
+      <language id="1" value="Ändern der Ansicht abgebrochen - Fehler beim Speichern der Daten im geöffneten Fenster..." />
+    </item>
+    <item id="85" name="err_msg_OpenFileHasUnsavedChanges" description="Confirm-Cancel Error-Message: Open File has unsaved changes - save (yes), skip save (no), cancel?">
+      <language id="0" value="There are unsaved changes in the current File. Dou you want to save them first?" />
+      <language id="1" value="Es gibt ungespeicherte Änderungen an der geöffneten Datei.&#xD;&#xA;Sollen diese zuerst gespeichert werden?" />
+    </item>
+    <item id="86" name="err_msg_OpenFileSaveUnsavedChangesError" description="Confirm Error-Message: Unsaved changes of open File could not be saved - discard changes and continue?">
+      <language id="0" value="The changes could not be saved to file.&#xD;&#xA;Dou you want to continue anyway and discard the unsaved changes?" />
+      <language id="1" value="Die Änderungen an der geöffneten Datei konnten nicht gespiechert werden.&#xD;&#xA;Wollen Sie dennoch fortfahren und die Änderungen verwerfen?" />
+    </item>
+    <item id="87" name="stat_msg_FileSaveStarted" description="Main MDI-Parent Window: Text on Status-Bar --&gt; FileSave started...">
+      <language id="0" value="started save to File..." />
+      <language id="1" value="speichere Datei..." />
+    </item>
+    <item id="88" name="stat_msg_FileSaveCancelFileSelect" description="Main MDI-Parent Window: Text on Status-Bar --&gt; FileSave cancel by User because no File selected...">
+      <language id="0" value="save to File not possible - no File to selected..." />
+      <language id="1" value="Datei nicht gespeichert - keine Datei ausgewählt..." />
+    </item>
+    <item id="89" name="stat_msg_FileSaveWriteXmlError" description="Main MDI-Parent Window: Text on Status-Bar --&gt; FileSave LanguageXML-File could not be saved...">
+      <language id="0" value="Error during save to File..." />
+      <language id="1" value="Fehler beim Speichern der Datei..." />
+    </item>
+    <item id="90" name="stat_msg_FileSaveSuccess" description="Main MDI-Parent Window: Text on Status-Bar --&gt; FileSave successful performed...">
+      <language id="0" value="File saved..." />
+      <language id="1" value="Datei gespeichert..." />
+    </item>
+    <item id="91" name="stat_msg_FileOpenStarted" description="Main MDI-Parent Window: Text on Status-Bar --&gt; FileOpen started...">
+      <language id="0" value="open File started..." />
+      <language id="1" value="öffne Datei..." />
+    </item>
+    <item id="92" name="stat_msg_FileOpenErrorOpen" description="Main MDI-Parent Window: Text on Status-Bar --&gt; FileOpen Error during open File...">
+      <language id="0" value="File could not be loaded..." />
+      <language id="1" value="Datei konnte nicht geöffnet werden..." />
+    </item>
+    <item id="93" name="stat_msg_FileOpenSuccess" description="Main MDI-Parent Window: Text on Status-Bar --&gt; FileOpen successful performed...">
+      <language id="0" value="File loaded..." />
+      <language id="1" value="Datei geöffnet..." />
+    </item>
+    <item id="94" name="stat_msg_FileNewStarted" description="Main MDI-Parent Window: Text on Status-Bar --&gt; NewFile  started...">
+      <language id="0" value="creating new File..." />
+      <language id="1" value="erstelle neue Datei..." />
+    </item>
+    <item id="95" name="stat_msg_FileNewSuccess" description="Main MDI-Parent Window: Text on Status-Bar --&gt; NewFile successful performed...">
+      <language id="0" value="new File created..." />
+      <language id="1" value="neue Datei erstellt..." />
+    </item>
+    <item id="96" name="stat_msg_ChangesCheckDataReadFail" description="Main MDI-Parent Window: Text on Status-Bar --&gt; ChangeCheck read data from Forms failed...">
+      <language id="0" value="Data from open Forms could not be read..." />
+      <language id="1" value="Daten des geöffneten Fenster konnten nicht gelesen werden..." />
+    </item>
+    <item id="97" name="stat_msg_ChangesCheckCancelAfterSaveFail" description="Main MDI-Parent Window: Text on Status-Bar --&gt; ChangeCheck cancel by User after save failed">
+      <language id="0" value="Cancel by User after error while reading Data from Forms..." />
+      <language id="1" value="Abbruch durch Benutzer nach Fehler bei der Datenübernahme..." />
+    </item>
+    <item id="98" name="stat_msg_ChangesCheckUserSkipSave" description="Main MDI-Parent Window: Text on Status-Bar --&gt; ChangeCheck User skipped DataSave">
+      <language id="0" value="User skipped save of unchanged Data..." />
+      <language id="1" value="Benutzer hat ungespeicherte Änderungen verworfen..." />
+    </item>
+    <item id="99" name="stat_msg_ChangesCheckUserCancel" description="Main MDI-Parent Window: Text on Status-Bar --&gt; ChangeCheck User cancelled the action...">
+      <language id="0" value="Cancel by User beacuse of unsaved changes..." />
+      <language id="1" value="Abbruch durch Benutzer aufgrund ungespeicherter Änderungen..." />
+    </item>
+    <item id="100" name="stat_msg_FileOpenCancelNoFile" description="Main MDI-Parent Window: Text on Status-Bar --&gt; FileOpen cancel by User because no File selected...">
+      <language id="0" value="open File not possible - no File selected..." />
+      <language id="1" value="Datei öffnen abgebrochen - keine Datei ausgewählt..." />
+    </item>
+    <item id="101" name="err_msg_TooManyCommandLineArguments" description="Error-Message: more then one Argument can not be processed on Startup...">
+      <language id="0" value="More then one Argument can not be processed..." />
+      <language id="1" value="Mehr als ein Startparameter kann nicht verarbeitet werden..." />
+    </item>
+    <item id="102" name="as_ts_frmSettings" description="ToolSettings Window: Form Title">
+      <language id="0" value="LXML - Editor | Settings:" />
+      <language id="1" value="LXML - Editor | Einstellungen:" />
+    </item>
+    <item id="103" name="as_ts_grpSettingsBase" description="ToolSettings Window: Text on GroupBox &quot;Tool Settings&quot;">
+      <language id="0" value="Settings for the Tool:" />
+      <language id="1" value="Einstellungen des Programm:" />
+    </item>
+    <item id="104" name="as_ts_grpStartPosition" description="ToolSettings Window: Text on GroupBox &quot;Tool Start-Position&quot;">
+      <language id="0" value="Start-Position:" />
+      <language id="1" value="Start-Position:" />
+    </item>
+    <item id="105" name="as_ts_grpStartSize" description="ToolSettings Window: Text on GroupBox &quot;Tool Start-Size&quot;">
+      <language id="0" value="Start-Size:" />
+      <language id="1" value="Start-Abmessungen:" />
+    </item>
+    <item id="106" name="as_ts_grpAutoOpenForm" description="ToolSettings Window: Text on GroupBox &quot;AutoOpen on FileOpen Form&quot;">
+      <language id="0" value="Auto-Open Form:" />
+      <language id="1" value="Standard-Ansicht:" />
+    </item>
+    <item id="107" name="as_ts_btnOk" description="ToolSettings Window: Text on Button &quot;OK&quot;">
+      <language id="0" value="OK" />
+      <language id="1" value="OK" />
+    </item>
+    <item id="108" name="as_ts_btnCancel" description="ToolSettings Window: Text on Button &quot;Cancel&quot;">
+      <language id="0" value="Cancel" />
+      <language id="1" value="Abbrechen" />
+    </item>
+    <item id="109" name="as_ts_lblStartPosX" description="ToolSettings Window: Text on Label &quot;StartPosition X&quot;">
+      <language id="0" value="Left:" />
+      <language id="1" value="von Links:" />
+    </item>
+    <item id="110" name="as_ts_lblStartPosY" description="ToolSettings Window: Text on Label &quot;StartPosition Y&quot;">
+      <language id="0" value="Top:" />
+      <language id="1" value="von Oben:" />
+    </item>
+    <item id="111" name="as_ts_lblStartSizeHeight" description="ToolSettings Window: Text on Label &quot;StartSize Height&quot;">
+      <language id="0" value="Height:" />
+      <language id="1" value="Höhe:" />
+    </item>
+    <item id="112" name="as_ts_lblStartSizeWidth" description="ToolSettings Window: Text on Label &quot;StartSize Width&quot;">
+      <language id="0" value="Width:" />
+      <language id="1" value="Breite:" />
+    </item>
+    <item id="113" name="as_ts_lblAutoOpenInfo" description="ToolSettings Window: Text on Label &quot;AutoOpen InfoText&quot;">
+      <language id="0" value="The Form to open after a File was opened / created..." />
+      <language id="1" value="Die Ansicht, die sich nach dem Öffnen bzw. Erstellen einer Datei öffnet..." />
+    </item>
+    <item id="114" name="as_ts_rbtStartPosRegular" description="ToolSettings Window: Text on Radio-Button &quot;Regular (Win Default)&quot; in Group &quot;Tool Start-Position&quot;">
+      <language id="0" value="Regular (Windows-Default)" />
+      <language id="1" value="Windows-Voreinstellung" />
+    </item>
+    <item id="115" name="as_ts_rbtStartPosCenter" description="ToolSettings Window: Text on Radio-Button &quot;Center&quot; in Group &quot;Tool Start-Position&quot;">
+      <language id="0" value="Center (on Screen 1)" />
+      <language id="1" value="Zentriert (Bildschirm 1)" />
+    </item>
+    <item id="116" name="as_ts_rbtStartPosCustom" description="ToolSettings Window: Text on Radio-Button &quot;Custom&quot; in Group &quot;Tool Start-Position&quot;">
+      <language id="0" value="Custom:" />
+      <language id="1" value="Benutzerdefiniert:" />
+    </item>
+    <item id="117" name="as_ts_rbtStartSizeStandard" description="ToolSettings Window: Text on Radio-Button &quot;Standard (600 X 450)&quot; in Group &quot;Tool Start-Size&quot;">
+      <language id="0" value="Standard (600 X 450)" />
+      <language id="1" value="Standard (600 X 450)" />
+    </item>
+    <item id="118" name="as_ts_rbtStartSizeSaveOnClose" description="ToolSettings Window: Text on Radio-Button &quot;Save on close&quot; in Group &quot;Tool Start-Size&quot;">
+      <language id="0" value="Save size on Exit" />
+      <language id="1" value="Größe beim Beenden speichern" />
+    </item>
+    <item id="119" name="as_ts_rbtStartSizeCustom" description="ToolSettings Window: Text on Radio-Button &quot;Custom&quot; in Group &quot;Tool Start-Size&quot;">
+      <language id="0" value="Custom:" />
+      <language id="1" value="Benutzerdefiniert:" />
+    </item>
+    <item id="120" name="as_ts_rbtAutoOpenNothing" description="ToolSettings Window: Text on Radio-Button &quot;Nothing&quot; in Group &quot;AutoOpen on FileOpen Form&quot;">
+      <language id="0" value="none" />
+      <language id="1" value="keine" />
+    </item>
+    <item id="121" name="as_ts_rbtAutoOpenValues" description="ToolSettings Window: Text on Radio-Button &quot;Values&quot; in Group &quot;AutoOpen on FileOpen Form&quot;">
+      <language id="0" value="Value-Edit" />
+      <language id="1" value="Sprach-Daten" />
+    </item>
+    <item id="122" name="as_ts_rbtAutoOpenItems" description="ToolSettings Window: Text on Radio-Button &quot;Items&quot; in Group &quot;AutoOpen on FileOpen Form&quot;">
+      <language id="0" value="Item-Edit" />
+      <language id="1" value="Sprach-Elemente" />
+    </item>
+    <item id="123" name="as_ts_rbtAutoOpenLanguages" description="ToolSettings Window: Text on Radio-Button &quot;Languages&quot; in Group &quot;AutoOpen on FileOpen Form&quot;">
+      <language id="0" value="Language-Edit" />
+      <language id="1" value="Liste mit Sprachen" />
+    </item>
+    <item id="124" name="as_mf_mniSettings" description="Main MDI-Parent Window: Text on Menu-Element &quot;Settings&quot;">
+      <language id="0" value="&amp;Settings" />
+      <language id="1" value="Ein&amp;stellungen" />
+    </item>
+    <item id="125" name="stat_msg_NoRightsToOpenForm" description="Main MDI-Parent Window: Text on Status-Bar --&gt; User has no rights to open requested form...">
+      <language id="0" value="No rights to open requested Window..." />
+      <language id="1" value="Keine Berechtigung zum Öffnen des gewünschten Modus..." />
+    </item>
+    <item id="126" name="stat_msg_NoSaveAfterFormSaveError" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Save not possible beacuse Data could not be read from Form...">
+      <language id="0" value="Save not possible - Data could not be saved in internal DataSet..." />
+      <language id="1" value="Speichern nicht möglich - Daten konnten nicht in das DataSet übernommen werden..." />
+    </item>
+    <item id="127" name="err_msg_GridItemsDataError" description="Error-Message: Error in Data of Grid for LanguageItems (possible cause: invalid name because not unique)">
+      <language id="0" value="The Data entered in the Grid is not valid.&#xD;&#xA;In most cases this is caused by a not unique Item-Name..." />
+      <language id="1" value="Die Daten, die eingegeben wurden, sind nicht gültig.&#xD;&#xA;Dieser bedeutet in den meisten Fällen das der Name des Element nicht einmalig ist..." />
+    </item>
+    <item id="128" name="stat_msg_ToolCloseCancelAfterSaveErr" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Close cancel because unchanged Data was not saved...">
+      <language id="0" value="Tool not closed because unchanged Data was not saved..." />
+      <language id="1" value="Beenden abgebrochen - die geänderten Daten konnten nicht gespeichert werden..." />
+    </item>
+    <item id="129" name="as_mf_mniFileProperties" description="Main MDI-Parent Window: Text on Menu-Element &quot;File-Properties&quot;">
+      <language id="0" value="&amp;File-Properties" />
+      <language id="1" value="&amp;Datei-Eigenschaften" />
+    </item>
+    <item id="130" name="stat_msg_FileNotSavedNoProperties" description="Main MDI-Parent Window: Text on Status-Bar --&gt; File-Properties not available for unsaved Files...">
+      <language id="0" value="File-Properties not available for unsaved Files..." />
+      <language id="1" value="Datei-Eigenschaften sind für ungespeicherte Dateien nicht verfügbar..." />
+    </item>
+    <item id="131" name="err_msg_OpenFileNotFound" description="Error-Message: Open File could not be found..!">
+      <language id="0" value="The open File could not be found on Disk...&#xD;&#xA;Perhaps another Application has deleted the File.&#xD;&#xA;&#xD;&#xA;Save it again, then the File should be restored - or save the File as another File in a diffrent Folder..." />
+      <language id="1" value="Die geöffnete Datei wurde nicht gefunden...&#xD;&#xA;Evtl. hat ein anderes Programm die Datei gelöscht.&#xD;&#xA;&#xD;&#xA;Speichern Sie die Datei bitte erneut - oder speichern Sie die Datei unter anderem Namen in einem anderen Ordner..." />
+    </item>
+    <item id="132" name="as_mf_mniRecentFiles" description="Main MDI-Parent Window: Text on Menu-Element &quot;Recent Files&quot;">
+      <language id="0" value="&amp;Recent Files" />
+      <language id="1" value="&amp;verwendete Dateien" />
+    </item>
+    <item id="133" name="err_msg_RecentFileNotFoundDelAsk" description="Confirm-Message: Recent file not found - remove from list?">
+      <language id="0" value="The file was not found. Do you want to remove it from the List?" />
+      <language id="1" value="Die Datei wurde nicht gefunden. Soll der Eintrag gelöscht werden?" />
+    </item>
+    <item id="134" name="str_name_DummyRecentFile" description="Main MDI-Parent Window: Text on Menu-Element &quot;No recent Files&quot;">
+      <language id="0" value="no Files in List..." />
+      <language id="1" value="keine Dateien in der Liste..." />
+    </item>
+    <item id="135" name="as_mf_mniAboutTool" description="Main MDI-Parent Window: Text on Menu-Element &quot;About Tool&quot;">
+      <language id="0" value="About the Editor..." />
+      <language id="1" value="Über den Editor..." />
+    </item>
+    <item id="136" name="as_af_frmAbout" description="About Window: Form Title">
+      <language id="0" value="About the Editor" />
+      <language id="1" value="Über das Programm" />
+    </item>
+    <item id="137" name="as_af_tpgGeneral" description="About Window: Text for TabPage &quot;General&quot;">
+      <language id="0" value="General Info" />
+      <language id="1" value="Allgemeines" />
+    </item>
+    <item id="138" name="as_af_tpgDetails" description="About Window: Text for TabPage &quot;Details&quot;">
+      <language id="0" value="Details" />
+      <language id="1" value="Details" />
+    </item>
+    <item id="139" name="as_af_tpgLicense" description="About Window: Text for TabPage &quot;License&quot;">
+      <language id="0" value="License" />
+      <language id="1" value="Lizenz" />
+    </item>
+    <item id="140" name="as_af_lblGenHeadline" description="About Window: Text on Headline-Label in General-Tab">
+      <language id="0" value="LanguageXML - Editor" />
+      <language id="1" value="LanguageXML - Editor" />
+    </item>
+    <item id="141" name="as_af_lblGenInfoText" description="About Window: Text on Infotext-Label in General-Tab">
+      <language id="0" value="This Editor is used to create and / or edit the Data-Files used by LanguageXML.&#xD;&#xA;&#xD;&#xA;LanguageXML was designed to handle the Language-Data for Applications in a single, XML-based File.&#xD;&#xA;&#xD;&#xA;The following Features are included:&#xD;&#xA;&#xD;&#xA; - edit the available Items for the Application&#xD;&#xA; - edit the List of Languages for the Application&#xD;&#xA; - edit the Language-Values for the available Items&#xD;&#xA; - simple Role-Management based on current NT-User" />
+      <language id="1" value="Dieser Editor ist zum Erstellen und / oder Bearbeiten von LanguageXML-Dateien gedacht.&#xD;&#xA;&#xD;&#xA;LanguageXML wurde erstellt um die Sprachdaten von Programmen in einer einzelnen, auf XML basierenden Datei zu verwalten.&#xD;&#xA;&#xD;&#xA;Folgende Funktionen sind enthalten:&#xD;&#xA;&#xD;&#xA; - Bearbeiten der im Programm verfügbaren Elemente&#xD;&#xA; - Bearbeiten der Sprachen-Liste des Programm&#xD;&#xA; - Bearbeiten der Srach-Daten für die verfügbaren Elemente&#xD;&#xA; - simple Rollen-Verwaltung anhand des aktuellen NT-Benutzer" />
+    </item>
+    <item id="142" name="as_af_lblDetToolVersion" description="About Window: Text on Version-Label Tool in Detail-Tab">
+      <language id="0" value="Tool Version:" />
+      <language id="1" value="Programm-Version:" />
+    </item>
+    <item id="143" name="as_af_lblDetLxmlVersion" description="About Window: Text on Version-Label LXML in Detail-Tab">
+      <language id="0" value="LanguageXML:" />
+      <language id="1" value="LanguageXML:" />
+    </item>
+    <item id="144" name="as_af_lblDetStatMsgVersion" description="About Window: Text on Version-Label StatusMessage in Detail-Tab">
+      <language id="0" value="Staus-Message:" />
+      <language id="1" value="Staus-Meldung:" />
+    </item>
+    <item id="145" name="as_af_lblDetLcuxVersion" description="About Window: Text on Version-Label LCUX in Detail-Tab">
+      <language id="0" value="UserList-Library:" />
+      <language id="1" value="Benutzerlisten:" />
+    </item>
+    <item id="146" name="as_af_lblDetRijndaelVersion" description="About Window: Text on Version-Label Rijndael in Detail-Tab">
+      <language id="0" value="Rijndael-Library:" />
+      <language id="1" value="Rijndael-AES:" />
+    </item>
+    <item id="147" name="as_af_lblDetComponents" description="About Window: Text on Components-Version Headline-Label in Detail-Tab">
+      <language id="0" value="used Components:" />
+      <language id="1" value="verwendete Komponenten:" />
+    </item>
+    <item id="148" name="as_af_lblDetVersionInfo" description="About Window: Text on Version-Info Headline-Label in Detail-Tab">
+      <language id="0" value="Version-Informations:" />
+      <language id="1" value="Versions-Informationen:" />
+    </item>
+    <item id="149" name="as_af_lblDetRoleInfo" description="About Window: Text on Role-Info Headline-Label in Detail-Tab">
+      <language id="0" value="Role-Management:" />
+      <language id="1" value="Rollen-Verwaltung:" />
+    </item>
+    <item id="150" name="as_af_lblDetCurrentRole" description="About Window: Text on current Role-Label in Detail-Tab">
+      <language id="0" value="current Role:" />
+      <language id="1" value="aktuelle Rolle:" />
+    </item>
+    <item id="151" name="as_af_lblDetRoleDetailText" description="About Window: Text on Role-Details Headline-Label in Detail-Tab">
+      <language id="0" value="Details about the Roles:" />
+      <language id="1" value="Details zu den Rollen:" />
+    </item>
+    <item id="152" name="as_af_tbxDetRoleDetailText" description="About Window: Text in Role-Details Text in Detail-Tab">
+      <language id="0" value="The Tool has four diffrent roles:&#xD;&#xA;&#xD;&#xA;- no usage allowed&#xD;&#xA;This is the default-role for unknown Users - if not configured diffrent in the User-List (.lcux-File)...&#xD;&#xA;&#xD;&#xA;- Language-Editor&#xD;&#xA;The Language-Editor can edit the Language-Values (for all Languages) for the Items that are available in the File.&#xD;&#xA;He has no rights to change the available Language-Items or Languages in the File; also new files can not be created...&#xD;&#xA;&#xD;&#xA;- Language-Administrator&#xD;&#xA;The Language-Administrator has the same rights like Language-Editor - but he can additional edit the available Languages in the File.&#xD;&#xA;He also has no rights to change the available Language-Items in the File; also new files can not be created...&#xD;&#xA;&#xD;&#xA;- (full) Administrator&#xD;&#xA;The Administrator has the same rights like Language-Administrator - but no limitations.&#xD;&#xA;He can create new Files and edit the Language-Items. On initial save or save as of a file he can select the version of the File-Format to use. This role is supposed to be used for the Programmer(s)...&#xD;&#xA;&#xD;&#xA;So you may use this Tool with Administrator-Rights for everyone or with limited Rights based on a User-List. This ensures that Editors can not accidential delete Items from the File...&#xD;&#xA;&#xD;&#xA;Use the Stand-Alone User-List Editor to define the NT-Names for the roles..." />
+      <language id="1" value="Das Programm kennt vier verschiedene Rollen:&#xD;&#xA;&#xD;&#xA;- keine Benutzung erlaubt&#xD;&#xA;Die Standart-Rolle für unbekannte benutzer - wenn nicht anders in der Benutzer-Liste (.lcux-Datei) defniniert...&#xD;&#xA;&#xD;&#xA;- Sprachen-Bearbeiter&#xD;&#xA;Der Sprachen-Bearbeiter kann die Sprach-Werte (aller Sprachen) für die in der Datei verfügbaren Sprach-Elemente bearbeiten.&#xD;&#xA;Er hat keine weiteren Rechte und kann auch keine neuen Dateien anlegen...&#xD;&#xA;&#xD;&#xA;- Sprachen-Administrator&#xD;&#xA;Der Sprachen-Administrator hat die selben Berechtigungen wir der Sprachen-Bearbeiter, kann aber zusätzlich die Liste der in der Datei verfügbaren Sprachen bearbeiten...&#xD;&#xA;Auch er kann keine Sprach-Elemente bearbeiten und keine neuen Dateien anlegen...&#xD;&#xA;&#xD;&#xA;- Administrator&#xD;&#xA;Der Administrator hat keinerlei Einschränkungen bei der Nutzung des Programm.&#xD;&#xA;Er kann alle Elemente in der Datei bearbeiten und auch neue Dateien erzeugen. Beim ersten Speichern (bzw. unter anderem Namen) kann er die Format-Version bestimmen. Diese Rolle ist für die Programmierer gedacht...&#xD;&#xA;&#xD;&#xA;Auf diese Weise ist es möglich das Programm mit Administrator-Rechten für jeden Benutzer oder mit eingeschränkten Rechten auf Basis einer Benutzer-Liste zu verwenden. Damit kann z.B. verhindert werden, das Sprach-Bearbeiter versehentlich Sprach-Elemente aus der Datei löschen können...&#xD;&#xA;&#xD;&#xA;Für die Administration der Benutzer-Liste (auf Basis des NT-Benutzers) ist ein eigenständiges Programm zuständig..." />
+    </item>
+    <item id="153" name="stat_txt_UnknownRole" description="Text for unkown / no Role">
+      <language id="0" value="no Role-Membership..." />
+      <language id="1" value="keine Rollen-Mitgliedschaft" />
+    </item>
+    <item id="154" name="as_af_lblLicHeadline" description="About Window: Text used as Headline-Text in License-Tab (License in english only)">
+      <language id="0" value="License - Informations for the Software:" />
+      <language id="1" value="Lizenz-Informationen für das Programm (nur in englisch verfügbar):" />
+    </item>
+    <item id="155" name="as_fv_frmFileFormat" description="FileVersion Window: Form Title">
+      <language id="0" value="Select File-Format:" />
+      <language id="1" value="Datei-Format auswählen:" />
+    </item>
+    <item id="156" name="as_fv_grpSeletcion" description="FileVersion Window: Text for GroupBox with selection">
+      <language id="0" value="Select the File-Format to use:" />
+      <language id="1" value="Bestimmen Sie das Datei-Format:" />
+    </item>
+    <item id="157" name="as_fv_rbtVersion1" description="FileVersion Window: RadioButton &quot;Version 1&quot;">
+      <language id="0" value="LanguageXML - Version &amp;1" />
+      <language id="1" value="LanguageXML - Version &amp;1" />
+    </item>
+    <item id="158" name="as_fv_rbtVersion2" description="FileVersion Window: RadioButton &quot;Version 2&quot;">
+      <language id="0" value="LanguageXML - Version &amp;2 (recommended)" />
+      <language id="1" value="LanguageXML - Version &amp;2 (empfohlen)" />
+    </item>
+    <item id="159" name="as_fv_lblVersion1" description="FileVersion Window: Label for Infotext Version 1">
+      <language id="0" value="The File-Format Version 1 is the raw DataSet used for LanguageXML. It was the first specified Format for the Library and is outdated since Version 0.14.0.13129 but still supported..." />
+      <language id="1" value="Das Version 1 - Format ist der Inhalt des intern verwendeten DataSet als XML. Es war das erste spezifizierte Format für die .dll-Datei und ist seit Version 0.14.0.13129 veraltet, wird aber weiterhin unterstützt..." />
+    </item>
+    <item id="160" name="as_fv_lblVersion2" description="FileVersion Window: Label for Infotext Version 2">
+      <language id="0" value="The File-Format Version 2 is designed to be more human-readable. Using this format ensures easy editing of the File without this Editor. It also needs less disk-space..." />
+      <language id="1" value="Das Version 2 - Format ist auf einfache lesbarkeit ausgelegt. Dieses Format stellt ein einfaches Bearbeiten der Sprachdaten auch ohne ohne diesen Editor sicher. Es benötigt auch weniger Speicherplatz..." />
+    </item>
+    <item id="161" name="as_fv_btnOK" description="FileVersion Window: Text for Button OK">
+      <language id="0" value="&amp;OK" />
+      <language id="1" value="&amp;OK" />
+    </item>
+    <item id="162" name="stat_msg_FileSaveNoVersionSelect" description="Main MDI-Parent Window: Text on Status-Bar --&gt; File not saved because of missing Version-Info to use...">
+      <language id="0" value="File can not be saved without Version-Select..." />
+      <language id="1" value="Datei kann ohne Auswahl einer Format-Version nicht gespeichert werden..." />
+    </item>
+    <item id="163" name="as_fv_btnCancel" description="FileVersion Window: Text for Button Cancel">
+      <language id="0" value="&amp;Cancel" />
+      <language id="1" value="&amp;Abbrechen" />
+    </item>
+    <item id="164" name="stat_msg_ToolCloseCancelAfterConfigSaveErr" description="Main MDI-Parent Window: Text on Status-Bar --&gt; Tool not closed because settings could not be saved">
+      <language id="0" value="Tool not closed because Settings were not saved..." />
+      <language id="1" value="Beenden abgebrochen - die Einstellungen konnten nicht gespeichert werden..." />
+    </item>
+    <item id="165" name="as_af_lblDetSettingsVersion" description="About Window: Text on Version-Label Settings in Detail-Tab">
+      <language id="0" value="Settings-Library:" />
+      <language id="1" value="Einstellungen:" />
+    </item>
+    <item id="166" name="as_ts_grpOtherSettings" description="ToolSettings Window: Text on GroupBox &quot;Other Settings&quot;">
+      <language id="0" value="Other Settings:" />
+      <language id="1" value="weitere Einstellungen:" />
+    </item>
+    <item id="167" name="as_ts_lblRecentFileNum" description="ToolSettings Window: Text on Label &quot;number of recent Files&quot; in Group &quot;Other Settings&quot;">
+      <language id="0" value="Number of recent Files:" />
+      <language id="1" value="Anzahl der verwendeten Dateien:" />
+    </item>
+    <item id="168" name="as_ts_lblDurationStatMsg" description="ToolSettings Window: Text on Label &quot;Sttatus-Message Duration&quot; in Group &quot;Other Settings&quot;">
+      <language id="0" value="Duration for Status-Messages:" />
+      <language id="1" value="Anzeige-Dauer für Status-Meldungen:" />
+    </item>
+  </items>
+</lxml>

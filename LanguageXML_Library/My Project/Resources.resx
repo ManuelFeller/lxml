@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="str_Meta_NewMultiVal" xml:space="preserve">
+    <value>str_Meta_NewMultiVal</value>
+    <comment>internal string for info about new multi-meta to insert</comment>
+  </data>
+  <data name="str_MetaL_Author" xml:space="preserve">
+    <value>author</value>
+    <comment>Text for the Author-Field in the Language-MetaTag</comment>
+  </data>
+  <data name="str_MetaL_Info" xml:space="preserve">
+    <value>info</value>
+    <comment>Text for the Info-Field in the Language-MetaTag</comment>
+  </data>
+  <data name="str_MetaL_ISO" xml:space="preserve">
+    <value>iso</value>
+    <comment>Text for the ISO-Field in the Language-MetaTag</comment>
+  </data>
+  <data name="str_MetaL_LastUpdate" xml:space="preserve">
+    <value>update</value>
+    <comment>Text for the LastUpdate-Field in the Language-MetaTag</comment>
+  </data>
+  <data name="str_MetaL_Name" xml:space="preserve">
+    <value>name</value>
+    <comment>Text for the DisplayName-Field in the Language-MetaTag</comment>
+  </data>
+  <data name="str_MetaL_Version" xml:space="preserve">
+    <value>version</value>
+    <comment>Text for the Version-Field in the Language-MetaTag</comment>
+  </data>
+  <data name="str_MetaF_Description" xml:space="preserve">
+    <value>description</value>
+    <comment>Name for Description-Field in File-Meta</comment>
+  </data>
+  <data name="str_MetaF_NewLangTab" xml:space="preserve">
+    <value>addlangtab</value>
+    <comment>Name for Language-Items-Field in File-Meta</comment>
+  </data>
+  <data name="str_MetaF_Programm" xml:space="preserve">
+    <value>program</value>
+    <comment>Name for Program Field in File-Meta</comment>
+  </data>
+  <data name="str_MetaF_Update" xml:space="preserve">
+    <value>update</value>
+    <comment>Name for Last-Update Field in File-Meta</comment>
+  </data>
+  <data name="str_intname_DefaultLang" xml:space="preserve">
+    <value>DEFAULT</value>
+    <comment>internal Name for the Default-Language</comment>
+  </data>
+  <data name="str_xml_FileItemCol_Description" xml:space="preserve">
+    <value>colItemDescr</value>
+    <comment>Name for the Description-Column in the Language-Items Table</comment>
+  </data>
+  <data name="str_xml_FileItemCol_ID" xml:space="preserve">
+    <value>colItemId</value>
+    <comment>Name for the ID-Column in the Language-Items Table</comment>
+  </data>
+  <data name="str_xml_FileItemCol_Name" xml:space="preserve">
+    <value>colItemName</value>
+    <comment>Name for the Name-Column in the Language-Items Table</comment>
+  </data>
+  <data name="str_xml_FileMetaCol_ID" xml:space="preserve">
+    <value>colMetaValue</value>
+    <comment>Name for the ID-Column in the File Meta-Data Table</comment>
+  </data>
+  <data name="str_xml_FileMetaCol_Value" xml:space="preserve">
+    <value>colMetaData</value>
+    <comment>Name for the Value-Column in the File Meta-Data Table</comment>
+  </data>
+  <data name="str_xml_LangValCol_ID" xml:space="preserve">
+    <value>colLangID</value>
+    <comment>Name for the ID-Column in the Language-Table</comment>
+  </data>
+  <data name="str_xml_LangValCol_Value" xml:space="preserve">
+    <value>colLangData</value>
+    <comment>Name for the Value-Column in the Language-Table</comment>
+  </data>
+  <data name="str_xml_TableItemData" xml:space="preserve">
+    <value>tblItemData</value>
+    <comment>Name for the Language-Items Table</comment>
+  </data>
+  <data name="str_xml_TableLangDataPrefix" xml:space="preserve">
+    <value>tblLang_</value>
+    <comment>Prefix for the Language-Data Tables in the DataSet</comment>
+  </data>
+  <data name="str_xml_TableMetaData" xml:space="preserve">
+    <value>tblMetaData</value>
+    <comment>Name for the Meta-Data Table in the DataSet</comment>
+  </data>
+  <data name="str_MetaF_Programm_old" xml:space="preserve">
+    <value>programm</value>
+    <comment>old Name for Program Field in File-Meta (compatiblity to older files)</comment>
+  </data>
+</root>
